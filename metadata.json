@@ -1,0 +1,5 @@
+{
+  "name": "Esoteric Knowledge Graph",
+  "description": "Extract and visualize esoteric entities and relationships from text using Gemini AI and D3.js.",
+  "requestFramePermissions": []
+}
