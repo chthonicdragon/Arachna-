@@ -1,20 +1,50 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Arachna
 
-# Run and deploy your AI Studio app
+Experimental AI-assisted knowledge exploration prototype.
 
-This contains everything you need to run your app locally.
+## Overview
 
-View your app in AI Studio: https://ai.studio/apps/473aa69f-4cd6-49dc-aed0-eec70c35166e
+Arachna explores how AI can help users navigate interconnected information, discover relationships between concepts, and work with complex knowledge through a focused interface.
 
-## Run Locally
+The project was created as a rapid product prototype using AI-assisted development.
 
-**Prerequisites:**  Node.js
+## What it explores
 
+- AI-assisted knowledge discovery
+- Semantic relationships between concepts
+- Graph-oriented navigation
+- Prompt and context design
+- Rapid interface prototyping
+- Human review of AI-generated outputs
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## My role
+
+I designed the concept, defined the product behavior, structured the interaction flows, directed AI-assisted implementation, reviewed the generated code, and tested the resulting prototype.
+
+## Status
+
+Experimental prototype. Not intended for production use.
+
+## Local development
+
+**Prerequisites:** Node.js
+
+```bash
+npm install
+```
+
+Create `.env.local` and add the required Gemini API key:
+
+```env
+GEMINI_API_KEY=your_key_here
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+## Notes
+
+This repository is part of my practical work with AI-assisted product development and LLM-driven interfaces.
